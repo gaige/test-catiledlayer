@@ -13,6 +13,8 @@
 		655FA131243F879D0089EF31 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 655FA130243F879D0089EF31 /* main.m */; };
 		655FA13C243F879D0089EF31 /* test_catiledlayerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 655FA13B243F879D0089EF31 /* test_catiledlayerTests.m */; };
 		655FA147243F879D0089EF31 /* test_catiledlayerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 655FA146243F879D0089EF31 /* test_catiledlayerUITests.m */; };
+		655FA158243F88120089EF31 /* CATiledLayerTestView.m in Sources */ = {isa = PBXBuildFile; fileRef = 655FA157243F88120089EF31 /* CATiledLayerTestView.m */; };
+		655FA15B243F8D600089EF31 /* CATiledLayerTestWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 655FA15A243F8D600089EF31 /* CATiledLayerTestWindowController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,10 @@
 		655FA142243F879D0089EF31 /* test-catiledlayerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "test-catiledlayerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		655FA146243F879D0089EF31 /* test_catiledlayerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = test_catiledlayerUITests.m; sourceTree = "<group>"; };
 		655FA148243F879D0089EF31 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		655FA156243F88120089EF31 /* CATiledLayerTestView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CATiledLayerTestView.h; sourceTree = "<group>"; };
+		655FA157243F88120089EF31 /* CATiledLayerTestView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CATiledLayerTestView.m; sourceTree = "<group>"; };
+		655FA159243F8D600089EF31 /* CATiledLayerTestWindowController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CATiledLayerTestWindowController.h; sourceTree = "<group>"; };
+		655FA15A243F8D600089EF31 /* CATiledLayerTestWindowController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CATiledLayerTestWindowController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +109,10 @@
 				655FA12C243F879D0089EF31 /* MainMenu.xib */,
 				655FA12F243F879D0089EF31 /* Info.plist */,
 				655FA130243F879D0089EF31 /* main.m */,
+				655FA156243F88120089EF31 /* CATiledLayerTestView.h */,
+				655FA157243F88120089EF31 /* CATiledLayerTestView.m */,
+				655FA159243F8D600089EF31 /* CATiledLayerTestWindowController.h */,
+				655FA15A243F8D600089EF31 /* CATiledLayerTestWindowController.m */,
 				655FA132243F879D0089EF31 /* test_catiledlayer.entitlements */,
 			);
 			path = "test-catiledlayer";
@@ -255,7 +265,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				655FA15B243F8D600089EF31 /* CATiledLayerTestWindowController.m in Sources */,
 				655FA131243F879D0089EF31 /* main.m in Sources */,
+				655FA158243F88120089EF31 /* CATiledLayerTestView.m in Sources */,
 				655FA129243F879A0089EF31 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -426,6 +438,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.ClueTrust.test-catiledlayer";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -445,6 +458,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.ClueTrust.test-catiledlayer";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
