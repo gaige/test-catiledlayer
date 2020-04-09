@@ -1,0 +1,571 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		655FA129243F879A0089EF31 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 655FA128243F879A0089EF31 /* AppDelegate.m */; };
+		655FA12B243F879D0089EF31 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 655FA12A243F879D0089EF31 /* Assets.xcassets */; };
+		655FA12E243F879D0089EF31 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 655FA12C243F879D0089EF31 /* MainMenu.xib */; };
+		655FA131243F879D0089EF31 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 655FA130243F879D0089EF31 /* main.m */; };
+		655FA13C243F879D0089EF31 /* test_catiledlayerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 655FA13B243F879D0089EF31 /* test_catiledlayerTests.m */; };
+		655FA147243F879D0089EF31 /* test_catiledlayerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 655FA146243F879D0089EF31 /* test_catiledlayerUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		655FA138243F879D0089EF31 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 655FA11C243F879A0089EF31 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 655FA123243F879A0089EF31;
+			remoteInfo = "test-catiledlayer";
+		};
+		655FA143243F879D0089EF31 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 655FA11C243F879A0089EF31 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 655FA123243F879A0089EF31;
+			remoteInfo = "test-catiledlayer";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		655FA124243F879A0089EF31 /* test-catiledlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "test-catiledlayer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		655FA127243F879A0089EF31 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		655FA128243F879A0089EF31 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		655FA12A243F879D0089EF31 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		655FA12D243F879D0089EF31 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		655FA12F243F879D0089EF31 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		655FA130243F879D0089EF31 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		655FA132243F879D0089EF31 /* test_catiledlayer.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = test_catiledlayer.entitlements; sourceTree = "<group>"; };
+		655FA137243F879D0089EF31 /* test-catiledlayerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "test-catiledlayerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		655FA13B243F879D0089EF31 /* test_catiledlayerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = test_catiledlayerTests.m; sourceTree = "<group>"; };
+		655FA13D243F879D0089EF31 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		655FA142243F879D0089EF31 /* test-catiledlayerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "test-catiledlayerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		655FA146243F879D0089EF31 /* test_catiledlayerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = test_catiledlayerUITests.m; sourceTree = "<group>"; };
+		655FA148243F879D0089EF31 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		655FA121243F879A0089EF31 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		655FA134243F879D0089EF31 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		655FA13F243F879D0089EF31 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		655FA11B243F879A0089EF31 = {
+			isa = PBXGroup;
+			children = (
+				655FA126243F879A0089EF31 /* test-catiledlayer */,
+				655FA13A243F879D0089EF31 /* test-catiledlayerTests */,
+				655FA145243F879D0089EF31 /* test-catiledlayerUITests */,
+				655FA125243F879A0089EF31 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		655FA125243F879A0089EF31 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				655FA124243F879A0089EF31 /* test-catiledlayer.app */,
+				655FA137243F879D0089EF31 /* test-catiledlayerTests.xctest */,
+				655FA142243F879D0089EF31 /* test-catiledlayerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		655FA126243F879A0089EF31 /* test-catiledlayer */ = {
+			isa = PBXGroup;
+			children = (
+				655FA127243F879A0089EF31 /* AppDelegate.h */,
+				655FA128243F879A0089EF31 /* AppDelegate.m */,
+				655FA12A243F879D0089EF31 /* Assets.xcassets */,
+				655FA12C243F879D0089EF31 /* MainMenu.xib */,
+				655FA12F243F879D0089EF31 /* Info.plist */,
+				655FA130243F879D0089EF31 /* main.m */,
+				655FA132243F879D0089EF31 /* test_catiledlayer.entitlements */,
+			);
+			path = "test-catiledlayer";
+			sourceTree = "<group>";
+		};
+		655FA13A243F879D0089EF31 /* test-catiledlayerTests */ = {
+			isa = PBXGroup;
+			children = (
+				655FA13B243F879D0089EF31 /* test_catiledlayerTests.m */,
+				655FA13D243F879D0089EF31 /* Info.plist */,
+			);
+			path = "test-catiledlayerTests";
+			sourceTree = "<group>";
+		};
+		655FA145243F879D0089EF31 /* test-catiledlayerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				655FA146243F879D0089EF31 /* test_catiledlayerUITests.m */,
+				655FA148243F879D0089EF31 /* Info.plist */,
+			);
+			path = "test-catiledlayerUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		655FA123243F879A0089EF31 /* test-catiledlayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 655FA14B243F879D0089EF31 /* Build configuration list for PBXNativeTarget "test-catiledlayer" */;
+			buildPhases = (
+				655FA120243F879A0089EF31 /* Sources */,
+				655FA121243F879A0089EF31 /* Frameworks */,
+				655FA122243F879A0089EF31 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "test-catiledlayer";
+			productName = "test-catiledlayer";
+			productReference = 655FA124243F879A0089EF31 /* test-catiledlayer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		655FA136243F879D0089EF31 /* test-catiledlayerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 655FA14E243F879D0089EF31 /* Build configuration list for PBXNativeTarget "test-catiledlayerTests" */;
+			buildPhases = (
+				655FA133243F879D0089EF31 /* Sources */,
+				655FA134243F879D0089EF31 /* Frameworks */,
+				655FA135243F879D0089EF31 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				655FA139243F879D0089EF31 /* PBXTargetDependency */,
+			);
+			name = "test-catiledlayerTests";
+			productName = "test-catiledlayerTests";
+			productReference = 655FA137243F879D0089EF31 /* test-catiledlayerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		655FA141243F879D0089EF31 /* test-catiledlayerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 655FA151243F879D0089EF31 /* Build configuration list for PBXNativeTarget "test-catiledlayerUITests" */;
+			buildPhases = (
+				655FA13E243F879D0089EF31 /* Sources */,
+				655FA13F243F879D0089EF31 /* Frameworks */,
+				655FA140243F879D0089EF31 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				655FA144243F879D0089EF31 /* PBXTargetDependency */,
+			);
+			name = "test-catiledlayerUITests";
+			productName = "test-catiledlayerUITests";
+			productReference = 655FA142243F879D0089EF31 /* test-catiledlayerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		655FA11C243F879A0089EF31 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = "Gaige B. Paulsen";
+				TargetAttributes = {
+					655FA123243F879A0089EF31 = {
+						CreatedOnToolsVersion = 11.4;
+					};
+					655FA136243F879D0089EF31 = {
+						CreatedOnToolsVersion = 11.4;
+						TestTargetID = 655FA123243F879A0089EF31;
+					};
+					655FA141243F879D0089EF31 = {
+						CreatedOnToolsVersion = 11.4;
+						TestTargetID = 655FA123243F879A0089EF31;
+					};
+				};
+			};
+			buildConfigurationList = 655FA11F243F879A0089EF31 /* Build configuration list for PBXProject "test-catiledlayer" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 655FA11B243F879A0089EF31;
+			productRefGroup = 655FA125243F879A0089EF31 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				655FA123243F879A0089EF31 /* test-catiledlayer */,
+				655FA136243F879D0089EF31 /* test-catiledlayerTests */,
+				655FA141243F879D0089EF31 /* test-catiledlayerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		655FA122243F879A0089EF31 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				655FA12B243F879D0089EF31 /* Assets.xcassets in Resources */,
+				655FA12E243F879D0089EF31 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		655FA135243F879D0089EF31 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		655FA140243F879D0089EF31 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		655FA120243F879A0089EF31 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				655FA131243F879D0089EF31 /* main.m in Sources */,
+				655FA129243F879A0089EF31 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		655FA133243F879D0089EF31 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				655FA13C243F879D0089EF31 /* test_catiledlayerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		655FA13E243F879D0089EF31 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				655FA147243F879D0089EF31 /* test_catiledlayerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		655FA139243F879D0089EF31 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 655FA123243F879A0089EF31 /* test-catiledlayer */;
+			targetProxy = 655FA138243F879D0089EF31 /* PBXContainerItemProxy */;
+		};
+		655FA144243F879D0089EF31 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 655FA123243F879A0089EF31 /* test-catiledlayer */;
+			targetProxy = 655FA143243F879D0089EF31 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		655FA12C243F879D0089EF31 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				655FA12D243F879D0089EF31 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		655FA149243F879D0089EF31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		655FA14A243F879D0089EF31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		655FA14C243F879D0089EF31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "test-catiledlayer/test_catiledlayer.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = F26W2ZR2V5;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = "test-catiledlayer/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ClueTrust.test-catiledlayer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		655FA14D243F879D0089EF31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "test-catiledlayer/test_catiledlayer.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = F26W2ZR2V5;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = "test-catiledlayer/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ClueTrust.test-catiledlayer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		655FA14F243F879D0089EF31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = F26W2ZR2V5;
+				INFOPLIST_FILE = "test-catiledlayerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ClueTrust.test-catiledlayerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/test-catiledlayer.app/Contents/MacOS/test-catiledlayer";
+			};
+			name = Debug;
+		};
+		655FA150243F879D0089EF31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = F26W2ZR2V5;
+				INFOPLIST_FILE = "test-catiledlayerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ClueTrust.test-catiledlayerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/test-catiledlayer.app/Contents/MacOS/test-catiledlayer";
+			};
+			name = Release;
+		};
+		655FA152243F879D0089EF31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = F26W2ZR2V5;
+				INFOPLIST_FILE = "test-catiledlayerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ClueTrust.test-catiledlayerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "test-catiledlayer";
+			};
+			name = Debug;
+		};
+		655FA153243F879D0089EF31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = F26W2ZR2V5;
+				INFOPLIST_FILE = "test-catiledlayerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ClueTrust.test-catiledlayerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "test-catiledlayer";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		655FA11F243F879A0089EF31 /* Build configuration list for PBXProject "test-catiledlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				655FA149243F879D0089EF31 /* Debug */,
+				655FA14A243F879D0089EF31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		655FA14B243F879D0089EF31 /* Build configuration list for PBXNativeTarget "test-catiledlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				655FA14C243F879D0089EF31 /* Debug */,
+				655FA14D243F879D0089EF31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		655FA14E243F879D0089EF31 /* Build configuration list for PBXNativeTarget "test-catiledlayerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				655FA14F243F879D0089EF31 /* Debug */,
+				655FA150243F879D0089EF31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		655FA151243F879D0089EF31 /* Build configuration list for PBXNativeTarget "test-catiledlayerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				655FA152243F879D0089EF31 /* Debug */,
+				655FA153243F879D0089EF31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 655FA11C243F879A0089EF31 /* Project object */;
+}
