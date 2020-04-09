@@ -15,6 +15,7 @@
 		655FA147243F879D0089EF31 /* test_catiledlayerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 655FA146243F879D0089EF31 /* test_catiledlayerUITests.m */; };
 		655FA158243F88120089EF31 /* CATiledLayerTestView.m in Sources */ = {isa = PBXBuildFile; fileRef = 655FA157243F88120089EF31 /* CATiledLayerTestView.m */; };
 		655FA15B243F8D600089EF31 /* CATiledLayerTestWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 655FA15A243F8D600089EF31 /* CATiledLayerTestWindowController.m */; };
+		655FA15E243FA2DD0089EF31 /* MyDrawingDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 655FA15D243FA2DD0089EF31 /* MyDrawingDelegate.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		655FA157243F88120089EF31 /* CATiledLayerTestView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CATiledLayerTestView.m; sourceTree = "<group>"; };
 		655FA159243F8D600089EF31 /* CATiledLayerTestWindowController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CATiledLayerTestWindowController.h; sourceTree = "<group>"; };
 		655FA15A243F8D600089EF31 /* CATiledLayerTestWindowController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CATiledLayerTestWindowController.m; sourceTree = "<group>"; };
+		655FA15C243FA2DD0089EF31 /* MyDrawingDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyDrawingDelegate.h; sourceTree = "<group>"; };
+		655FA15D243FA2DD0089EF31 /* MyDrawingDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyDrawingDelegate.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +110,8 @@
 				655FA128243F879A0089EF31 /* AppDelegate.m */,
 				655FA12A243F879D0089EF31 /* Assets.xcassets */,
 				655FA12C243F879D0089EF31 /* MainMenu.xib */,
+				655FA15C243FA2DD0089EF31 /* MyDrawingDelegate.h */,
+				655FA15D243FA2DD0089EF31 /* MyDrawingDelegate.m */,
 				655FA12F243F879D0089EF31 /* Info.plist */,
 				655FA130243F879D0089EF31 /* main.m */,
 				655FA156243F88120089EF31 /* CATiledLayerTestView.h */,
@@ -269,6 +274,7 @@
 				655FA131243F879D0089EF31 /* main.m in Sources */,
 				655FA158243F88120089EF31 /* CATiledLayerTestView.m in Sources */,
 				655FA129243F879A0089EF31 /* AppDelegate.m in Sources */,
+				655FA15E243FA2DD0089EF31 /* MyDrawingDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

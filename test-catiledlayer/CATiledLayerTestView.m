@@ -16,16 +16,21 @@
     self.layer = [[CALayer alloc] init];
     self.wantsLayer = YES;
     
-    CATiledLayer *layer = [[CATiledLayer alloc] init];
-    layer.delegate = self;
-    layer.bounds = NSRectToCGRect( [self bounds]);
-    layer.anchorPoint = CGPointMake( 0.0f, 0.0f);
-    layer.name = @"Test Layer";
-    layer.contentsScale = NSScreen.deepestScreen.backingScaleFactor;
-    layer.tileSize = CGSizeMake( 16, 16);
+    _tlDelegate = [[MyDrawingDelegate alloc] init];
     
-    self.tiledLayer = layer;
-    [self.layer addSublayer: layer];
+    _tiledLayer = [[CATiledLayer alloc] init];
+    _tiledLayer.delegate = _tlDelegate;
+    _tiledLayer.bounds = NSRectToCGRect( [self bounds]);
+    _tiledLayer.frame = _tiledLayer.bounds;
+    _tiledLayer.anchorPoint = CGPointMake( 0.0f, 0.0f);
+    _tiledLayer.name = @"Test Layer";
+    _tiledLayer.contentsScale = NSScreen.deepestScreen.backingScaleFactor;
+    _tiledLayer.tileSize = CGSizeMake( 16, 16);
+    _tiledLayer.levelsOfDetail = 4;
+    _tiledLayer.levelsOfDetailBias = 1;
+    
+    _tlDelegate.tiledLayer = _tiledLayer;
+    [self.layer addSublayer: _tiledLayer];
     _drawSynchronizeQueue = dispatch_queue_create( "drawSynchronizer", DISPATCH_QUEUE_SERIAL);
 
 }
@@ -34,7 +39,7 @@
 {
     NSLog(@"Boom!");
     [self.tiledLayer setNeedsDisplay];
-    
+    [self.layer setNeedsDisplay];
 }
 
 
@@ -44,13 +49,8 @@
 
     CGRect bbox = CGContextGetClipBoundingBox( ctx);
     
-    NSRect drawBounds = NSRectFromCGRect( bbox); // although we might need to transform through tx
-    CGAffineTransform transform = CGContextGetCTM( ctx);
-    CGSize scaledSize = CGSizeApplyAffineTransform( bbox.size,  transform);
-    NSLog(@"Bounding box %g,%g (%g,%g) -- ctm: %g,%g (%g,%g): Thread %@ -- %@",
+    NSLog(@"Bounding box %g,%g (%g,%g) : Thread %@ -- %@",
           bbox.origin.x, bbox.origin.y, bbox.size.width, bbox.size.height,
-          transform.tx, transform.ty,
-          scaledSize.width, scaledSize.height,
           [NSThread currentThread],
           [caLayer name]);
 
@@ -64,9 +64,8 @@
             }
         }
     });
+    sleep(1);
     
-    NSLog(@"Hi");
-        
     if (addedDrawer) {
 //        NSAssert( caLayer== tiledLayer, @"not a tiled layer when we left");        // can't do this unless we get our layer killed
         dispatch_sync( _drawSynchronizeQueue, ^{
